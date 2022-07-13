@@ -6,7 +6,6 @@ class HomebrewCli < Formula
   license "MIT"
 
   def install
-    bin.install 'add_cli'
     bin.install "add_cli.py"
   end
 end
