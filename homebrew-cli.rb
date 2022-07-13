@@ -6,6 +6,6 @@ class HomebrewCli < Formula
   license "MIT"
 
   def install
-    bin.install "add_cli.py"
+    bin.install "https://github.com/ambhar/homebrew-cli/add_cli.py"
   end
 end
