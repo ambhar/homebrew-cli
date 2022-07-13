@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-     name='add_cli',  
+     name='new_cli',  
      version='0.1',
-     scripts=['add_cli.py'] ,
+     scripts=['new_cli.py'] ,
      author="ashima",
      author_email="ashima@snakescript.com",
      description="A Docker and AWS utility package",
