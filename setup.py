@@ -1,7 +1,5 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
 
 
 setuptools.setup(
@@ -11,8 +9,7 @@ setuptools.setup(
      author="ashima",
      author_email="ashima@snakescript.com",
      description="A Docker and AWS utility package",
-     long_description=long_description,
-   long_description_content_type="text/markdown",
+    long_description_content_type="text/markdown",
      url="https://github.com/ambhar/homebrew-cli",
      packages=setuptools.find_packages(),
      classifiers=[
