@@ -5,6 +5,6 @@ class HomebrewCli < Formula
   sha256 "9dcddd84d137a9d9855999b6c9c866f2f05cc2a3b211b41be86bf2aab2c3bb3f"
   license "MIT"
   def install
-    bin.install "add_cli.py"
+    bin.install "add_cli"
   end
 end
